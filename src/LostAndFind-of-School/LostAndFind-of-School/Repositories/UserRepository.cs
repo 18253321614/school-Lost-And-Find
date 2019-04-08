@@ -10,7 +10,7 @@ namespace LostAndFind_of_School.Repositories
     
     public class UserRepository : IUserRepository
     {
-        UserContext db = new UserContext();
+        ProjectContext db = new ProjectContext();
         /// <summary>
         /// 添加用户
         /// </summary>

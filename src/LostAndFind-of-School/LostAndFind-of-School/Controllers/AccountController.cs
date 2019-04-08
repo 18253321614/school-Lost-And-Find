@@ -14,10 +14,10 @@ namespace LostAndFind_of_School.Controllers
         public ActionResult Index()
         {
             //测试数据库的创建
-            LostItemContext liDb = new LostItemContext();
-            UserContext db = new UserContext();
-            var i = liDb.LostItems.Any();
-            var b = db.Users.Any();
+            //LostItemContext liDb = new LostItemContext();
+            //UserContext db = new UserContext();
+            //var i = liDb.LostItems.Any();
+            //var b = db.Users.Any();
             return View();
         }
     }

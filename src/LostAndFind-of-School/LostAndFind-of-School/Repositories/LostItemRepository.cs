@@ -9,7 +9,7 @@ namespace LostAndFind_of_School.Repositories
 {
     public class LostItemRepository : ILostItemRepository
     {
-        LostItemContext db = new LostItemContext();
+        ProjectContext db = new ProjectContext();
 
         public void AddItem(LostItems item)
         {

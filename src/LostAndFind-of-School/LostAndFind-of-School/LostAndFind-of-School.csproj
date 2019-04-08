@@ -155,10 +155,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\LostItemController.cs" />
-    <Compile Include="DAL\LostItemContext.cs" />
-    <Compile Include="DAL\LostItemInitializer.cs" />
-    <Compile Include="DAL\UserContext.cs" />
-    <Compile Include="DAL\UserInitializer.cs" />
+    <Compile Include="DAL\DataBaseInitializer.cs" />
+    <Compile Include="DAL\ProjectContext.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
